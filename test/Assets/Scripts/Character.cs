@@ -5,8 +5,6 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     public string c_name = "Xin";
-    public int health = 200;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +14,6 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        print(c_name);
     }
 }
